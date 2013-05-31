@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/main_custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button_selector"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:gravity="left|center_vertical"
+        android:shadowColor="#CED1D1"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="Custom Button"
+        android:textColor="#414141"
+        android:textSize="18sp" />
+    
+    
+    
+    
+    
+    
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main_custom_button"
+        android:layout_below="@+id/main_custom_button"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="65dp" >
+        
+        
+        
+        </Spinner>
+    
+</RelativeLayout>
